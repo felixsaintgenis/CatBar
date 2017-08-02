@@ -5,34 +5,34 @@ body {
   font-family: 'Indie Flower';
 }
 
-/* line 8, ../sass/index.scss */
+/* line 9, ../sass/index.scss */
 .navbar-inverse {
   background-color: transparent;
   border-color: transparent;
 }
 
-/* line 12, ../sass/index.scss */
+/* line 13, ../sass/index.scss */
 #headerHome {
   position: relative;
   background-image: url(../img/chatCool.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 550px;
+  height: 650px;
 }
 
-/* line 20, ../sass/index.scss */
+/* line 21, ../sass/index.scss */
 .navbar-inverse .navbar-toggle {
   border-color: white;
 }
 
-/* line 23, ../sass/index.scss */
+/* line 24, ../sass/index.scss */
 .navbar-inverse .navbar-brand {
   color: white;
   font-size: 35px;
 }
 
-/* line 32, ../sass/index.scss */
+/* line 33, ../sass/index.scss */
 .headerText {
   font-family: 'Indie Flower';
   text-align: center;
@@ -43,68 +43,122 @@ body {
   left: 26%;
   color: white;
 }
-/* line 41, ../sass/index.scss */
+/* line 42, ../sass/index.scss */
 .headerText h1 {
   font-size: 50px;
 }
-/* line 44, ../sass/index.scss */
+/* line 45, ../sass/index.scss */
 .headerText h3 {
-  font-size: 15px;
+  font-size: 20px;
+}
+/* line 48, ../sass/index.scss */
+.headerText p {
+  font-size: 10px;
+}
+
+/* line 55, ../sass/index.scss */
+#firstTwoCol h2 {
+  font-size: 50px;
+}
+/* line 58, ../sass/index.scss */
+#firstTwoCol p {
+  font-size: 25px;
+}
+
+/* line 63, ../sass/index.scss */
+#secondTwoCol h2 {
+  font-size: 50px;
+}
+/* line 66, ../sass/index.scss */
+#secondTwoCol p {
+  font-size: 25px;
+}
+
+/* line 70, ../sass/index.scss */
+.laCarteSection {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 74, ../sass/index.scss */
+.lesChatsSection {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #E1BD77;
+}
+
+/* line 79, ../sass/index.scss */
+.aboutSection {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #DEDEDE;
+}
+
+/* line 84, ../sass/index.scss */
+.contactSection {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 @media (max-width: 1800px) {
-  /* line 49, ../sass/index.scss */
+  /* line 89, ../sass/index.scss */
   .navbar-header {
     float: none;
   }
 
-  /* line 52, ../sass/index.scss */
+  /* line 92, ../sass/index.scss */
   .navbar-toggle {
     display: block;
   }
 
-  /* line 55, ../sass/index.scss */
+  /* line 95, ../sass/index.scss */
   .navbar-collapse {
     border-top: 1px solid transparent;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   }
 
-  /* line 59, ../sass/index.scss */
+  /* line 99, ../sass/index.scss */
   .navbar-collapse.collapse {
     display: none !important;
   }
 
-  /* line 62, ../sass/index.scss */
+  /* line 102, ../sass/index.scss */
   .navbar-nav {
     float: none !important;
     margin: 7.5px -15px;
   }
 
-  /* line 66, ../sass/index.scss */
+  /* line 106, ../sass/index.scss */
   .navbar-nav > li {
     float: none;
   }
 
-  /* line 69, ../sass/index.scss */
+  /* line 109, ../sass/index.scss */
   .navbar-nav > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
-  /* line 73, ../sass/index.scss */
+  /* line 113, ../sass/index.scss */
   .navbar-text {
     float: none;
     margin: 15px 0;
   }
 
   /* since 3.1.0 */
-  /* line 78, ../sass/index.scss */
+  /* line 118, ../sass/index.scss */
   .navbar-collapse.collapse.in {
     display: block !important;
   }
 
-  /* line 81, ../sass/index.scss */
+  /* line 121, ../sass/index.scss */
   .collapsing {
     overflow: hidden !important;
+  }
+}
+@media (min-width: 1000px) {
+  /* line 126, ../sass/index.scss */
+  #headerHome {
+    height: 850px;
   }
 }

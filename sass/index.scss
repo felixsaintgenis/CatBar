@@ -4,6 +4,7 @@
 // Header and navbar
 body {
   font-family: 'Indie Flower';
+
 }
 .navbar-inverse {
     background-color: transparent;
@@ -15,7 +16,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size:  cover;
-  height: 550px;
+  height: 650px;
 }
 .navbar-inverse .navbar-toggle {
     border-color: white;
@@ -42,8 +43,47 @@ body {
     font-size: 50px;
   }
   h3 {
-    font-size: 15px;
+    font-size: 20px;
   }
+  p {
+    font-size: 10px;
+  }
+}
+// Square menu
+
+#firstTwoCol{
+  h2 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 25px;
+  }
+}
+#secondTwoCol{
+  h2 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 25px;
+  }
+}
+.laCarteSection{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.lesChatsSection {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #E1BD77;
+}
+.aboutSection{
+  padding-top: 50px;
+  padding-bottom: 50px;
+    background-color: #DEDEDE;
+}
+.contactSection {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 @media (max-width: 1800px) {
     .navbar-header {
@@ -81,4 +121,10 @@ body {
     .collapsing {
         overflow: hidden!important;
     }
+}
+@media (min-width: 1000px) {
+  #headerHome {
+
+    height: 850px;
+}
 }
