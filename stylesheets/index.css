@@ -1,5 +1,110 @@
-/* line 1, ../sass/index.scss */
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+/* line 5, ../sass/index.scss */
+body {
+  font-family: 'Indie Flower';
+}
+
+/* line 8, ../sass/index.scss */
 .navbar-inverse {
   background-color: transparent;
   border-color: transparent;
+}
+
+/* line 12, ../sass/index.scss */
+#headerHome {
+  position: relative;
+  background-image: url(../img/chatCool.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 550px;
+}
+
+/* line 20, ../sass/index.scss */
+.navbar-inverse .navbar-toggle {
+  border-color: white;
+}
+
+/* line 23, ../sass/index.scss */
+.navbar-inverse .navbar-brand {
+  color: white;
+  font-size: 35px;
+}
+
+/* line 32, ../sass/index.scss */
+.headerText {
+  font-family: 'Indie Flower';
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  position: absolute;
+  top: 700%;
+  left: 26%;
+  color: white;
+}
+/* line 41, ../sass/index.scss */
+.headerText h1 {
+  font-size: 50px;
+}
+/* line 44, ../sass/index.scss */
+.headerText h3 {
+  font-size: 15px;
+}
+
+@media (max-width: 1800px) {
+  /* line 49, ../sass/index.scss */
+  .navbar-header {
+    float: none;
+  }
+
+  /* line 52, ../sass/index.scss */
+  .navbar-toggle {
+    display: block;
+  }
+
+  /* line 55, ../sass/index.scss */
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  /* line 59, ../sass/index.scss */
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+
+  /* line 62, ../sass/index.scss */
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px;
+  }
+
+  /* line 66, ../sass/index.scss */
+  .navbar-nav > li {
+    float: none;
+  }
+
+  /* line 69, ../sass/index.scss */
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* line 73, ../sass/index.scss */
+  .navbar-text {
+    float: none;
+    margin: 15px 0;
+  }
+
+  /* since 3.1.0 */
+  /* line 78, ../sass/index.scss */
+  .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+
+  /* line 81, ../sass/index.scss */
+  .collapsing {
+    overflow: hidden !important;
+  }
 }
