@@ -4,9 +4,13 @@ Error: Undefined variable: "$darkGrey".
 
 1: .cat-card {
 2:   width: 100%;
-3:   height: 20em;
+3:   height: 10em;
 4:   box-shadow: 0 0 3px $darkGrey;
-5: }
+5:   background-size: cover;
+6:   transition:
+7:     font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+8:     height 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+9:     background 0.2s;
 
 Backtrace:
 /home/nicolas/dev/Taf Simplon/Semaine 12/CatBar/sass/components/cat-card.scss:4
@@ -66,4 +70,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$darkGrey\".\A         on line 4 of /home/nicolas/dev/Taf Simplon/Semaine 12/CatBar/sass/components/cat-card.scss\A \A 1: .cat-card {\A 2:   width: 100%;\A 3:   height: 20em;\A 4:   box-shadow: 0 0 3px $darkGrey;\A 5: }"; }
+  content: "Error: Undefined variable: \"$darkGrey\".\A         on line 4 of /home/nicolas/dev/Taf Simplon/Semaine 12/CatBar/sass/components/cat-card.scss\A \A 1: .cat-card {\A 2:   width: 100%;\A 3:   height: 10em;\A 4:   box-shadow: 0 0 3px $darkGrey;\A 5:   background-size: cover;\A 6:   transition:\A 7:     font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),\A 8:     height 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),\A 9:     background 0.2s;"; }
