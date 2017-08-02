@@ -85,6 +85,47 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+//footer
+footer {
+  background-color: white;
+  height: 100px;
+
+}
+footer p {
+  color: #black;
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  font-family: 'Lato';
+}
+//galerie
+.gal {
+
+
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+
+	}
+	.gal img{ width: 100%; padding: 7px 0;}
+@media (max-width: 500px) {
+
+		.gal {
+
+
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+
+
+	}
+
+	}
+
 @media (max-width: 1800px) {
     .navbar-header {
         float: none;
