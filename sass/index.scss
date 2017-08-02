@@ -112,6 +112,68 @@ footer p {
 
 	}
 	.gal img{ width: 100%; padding: 7px 0;}
+
+  #socials {
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  height: 10em;
+}
+.fa {
+  color: black;
+  transition: 0.8s;
+  transition-duration: 3.3s;
+}
+
+.fa-facebook:hover {
+  color: #3b5998;
+  transform: rotateY(360deg);
+  transition: 0.5s;
+  transition-duration: 3s;
+
+}
+.fa-twitter:hover {
+  color: #1da1f2;
+  transform: rotateY(360deg);
+  transition: 0.5s;
+  transition-duration: 3s;
+
+}
+
+.fa-snapchat-ghost:hover {
+  color: #fffc00;
+  transform: rotateY(360deg);
+  transition: 0.5s;
+  transition-duration: 3s;
+
+}
+
+.fa-youtube:hover {
+  color: #cd201f;
+  transform: rotateY(360deg);
+  transition: 0.5s;
+  transition-duration: 3s;
+}
+
+.fa-instagram:hover {
+  color: #e1306c;
+  transform: rotateY(360deg);
+  transition: 0.5s;
+  transition-duration: 3s;
+
+}
+
+.fa-pinterest-p:hover {
+  color: #bd081c;
+  transform: rotateY(360deg);
+  transition: 0.5s;
+  transition-duration: 3s;
+
+}
+
 @media (max-width: 500px) {
 
 		.gal {
