@@ -1,0 +1,48 @@
+/* line 1, ../sass/lacarte.scss */
+h1 {
+  text-align: center;
+  color: #444444;
+}
+
+/* line 6, ../sass/lacarte.scss */
+#containerbutton {
+  position: relative;
+  vertical-align: middle;
+  line-height: 100px;
+  height: 100px;
+  width: 100%;
+}
+/* line 13, ../sass/lacarte.scss */
+#containerbutton ul {
+  text-align: center;
+}
+/* line 17, ../sass/lacarte.scss */
+#containerbutton ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 20px;
+}
+/* line 23, ../sass/lacarte.scss */
+#containerbutton ul li a {
+  text-decoration: none;
+  color: #444444;
+}
+
+/* line 33, ../sass/lacarte.scss */
+.containerPlat {
+  margin-left: 2%;
+  position: relative;
+}
+/* line 38, ../sass/lacarte.scss */
+.containerPlat .row .col-md-4 {
+  text-align: center;
+}
+/* line 41, ../sass/lacarte.scss */
+.containerPlat .row .col-md-4 a {
+  text-decoration: none;
+  font-size: 25px;
+}
+/* line 45, ../sass/lacarte.scss */
+.containerPlat .row .col-md-4 .description {
+  font-size: 10px;
+}
