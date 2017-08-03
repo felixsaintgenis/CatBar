@@ -28,21 +28,27 @@ h1 {
   color: #444444;
 }
 
-/* line 33, ../sass/lacarte.scss */
-.containerPlat {
-  margin-left: 2%;
-  position: relative;
-}
-/* line 38, ../sass/lacarte.scss */
+/* line 40, ../sass/lacarte.scss */
 .containerPlat .row .col-md-4 {
   text-align: center;
 }
-/* line 41, ../sass/lacarte.scss */
+/* line 44, ../sass/lacarte.scss */
 .containerPlat .row .col-md-4 a {
   text-decoration: none;
   font-size: 25px;
 }
-/* line 45, ../sass/lacarte.scss */
+/* line 49, ../sass/lacarte.scss */
 .containerPlat .row .col-md-4 .description {
   font-size: 10px;
+}
+
+/* line 62, ../sass/lacarte.scss */
+.containerImg {
+  text-align: center;
+}
+
+/* line 75, ../sass/lacarte.scss */
+.active {
+  background-color: #E1BD77;
+  box-shadow: 1px 1px 1px 1px #020232;
 }

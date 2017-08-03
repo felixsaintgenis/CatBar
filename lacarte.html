@@ -13,13 +13,13 @@
 		
 
 		<ul>
-			<li><a href="">Toute la carte</a></li>
-				<li><a href="">Petit-déjeuner</a></li>
-			<li><a href="">Déjeuner</a></li>
-			<li><a href="">Diner</a></li>
+			<li><a  class="active" id="tout_la_carte">Toute la carte</a></li>
+				<li><a id='petit_dej'>Petit-déjeuner</a></li>
+			<li><a id='dej'>Déjeuner</a></li>
+			<li><a id='diner'>Diner</a></li>
 		</ul>
 	</div>
-	<div class="containerPlat">
+	<div class="containerPlat petit_dej tout_la_carte">
 		<div class="row">
 			<div class="col-md-4">
 				<a class="nomduplat">lasagnes</a>
@@ -44,19 +44,122 @@
 		</div>
 	</div>
 
-	<!-- 
-	<div class="container">
+	
+	<div class="containerImg">
 		<div class='row'>
-			<div class="col-xs">
-					<img src="img/CatInAPlate.jpg" alt="cat in a plate">
-				<img src="img/CatInAPlate.jpg" alt="cat in a plate">
-			</div>
+				<div class="col-md-4">
+					<img src="img/" class="petit_dej tout_la_carte" alt="cat in a plate">		
+				</div>
 
-			<div class="col-xs">
-				<img src="img/CatInAPlate.jpg" alt="cat in a plate">
-				<img src="img/CatInAPlate.jpg" alt="cat in a plate">
-			</div>
+				<div class="col-md-4">
+					<img src="img/" class="petit_dej tout_la_carte" alt="cat in a plate">
+				</div>
+				
+				<div class="col-md-4">
+					<img src="img/" class="petit_dej tout_la_carte" alt="cat in a plate">
+				</div>
+
+
+
 		</div>
 	</div>
- --></body>
+
+	<div class="containerPlat dej tout_la_carte">
+		<div class="row">
+			<div class="col-md-4">
+				<a class="nomduplat">lasagnes</a>
+				<span class="prix">20euros	</span>
+				<div class='description'> au pesto</div>
+				
+			</div>
+
+			<div class="col-md-4">
+				<a class="nomduplat">lasagnes</a>
+				<span class="prix">20euros	</span>
+				<div class='description'> au pesto</div>
+			</div>
+
+			<div class="col-md-4" >
+				<a class="nomduplat">lasagnes</a>
+				<span class="prix">20euros	</span>
+				<div class='description'> pesto</div>
+			</div>
+
+		
+		</div>
+	</div>
+
+	<div class="containerImg">
+		<div class='row'>
+				<div class="col-md-4">
+					<img src="img/CatInAPlate.jpg" class="dej tout_la_carte" alt="cat in a plate">		
+				</div>
+
+				<div class="col-md-4">
+					<img src="img/CatInAPlate.jpg" class="dej tout_la_carte" alt="cat in a plate">
+				</div>
+
+				<div class="col-md-4">
+					<img src="img/CatInAPlate.jpg" class="dej tout_la_carte" alt="cat in a plate">
+				</div>
+
+
+		</div>
+	</div>
+
+	<div class="containerPlat">
+		<div class="row">
+			<div class="col-md-4 diner tout_la_carte">
+				<a class="nomduplat">lasagnes</a>
+				<span class="prix">20euros	</span>
+				<div class='description'> au pesto</div>
+				
+			</div>
+
+			<div class="col-md-4 diner tout_la_carte">
+				<a class="nomduplat">lasagnes</a>
+				<span class="prix">20euros	</span>
+				<div class='description'> au pesto</div>
+			</div>
+
+			<div class="col-md-4 diner tout_la_carte" >
+				<a class="nomduplat">lasagnes</a>
+				<span class="prix">20euros	</span>
+				<div class='description'> pesto</div>
+			</div>
+
+		
+		</div>
+	</div>
+
+	<div class="containerImg">
+		<div class='row'>
+				<div class="col-md-4">
+					<img src="img/CatInAPlate.jpg" class="diner tout_la_carte" alt="cat in a plate">		
+				</div>
+
+				<div class="col-md-4">
+					<img src="img/CatInAPlate.jpg" class="diner tout_la_carte" alt="cat in a plate">
+				</div>
+
+				<div class="col-md-4">
+					<img src="img/CatInAPlate.jpg" class="diner tout_la_carte" alt="cat in a plate">
+				</div>
+
+
+		</div>
+	</div>
+</body>
+<script
+
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+
+  crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="javascripts/bootstrap.min.js"></script>
+
+
+<script src='javascripts/lacarte.js'></script>
 </html>
