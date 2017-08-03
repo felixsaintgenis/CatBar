@@ -1,12 +1,135 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+/* line 1, ../sass/components/cat-card.scss */
+#cat-body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/livre-fond.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* line 8, ../sass/components/cat-card.scss */
+#cat-title {
+  color: white;
+  font-size: 300%;
+  text-shadow: 0 0 2px black;
+  margin-bottom: 20px;
+}
+
+/* line 14, ../sass/components/cat-card.scss */
+.cat-card {
+  width: 100%;
+  height: 10em;
+  box-shadow: 0 0 3px #020232;
+  background-size: cover;
+  transition: height 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11);
+  overflow: hidden;
+  position: relative;
+}
+/* line 22, ../sass/components/cat-card.scss */
+.cat-card h2 {
+  font-size: 250%;
+  font-weight: bold;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  display: block;
+  transition: transform 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11);
+}
+/* line 31, ../sass/components/cat-card.scss */
+.cat-card p {
+  font-size: 220%;
+  position: absolute;
+  z-index: 1;
+  width: 80%;
+  display: block;
+  margin-left: 10%;
+  margin-top: 25%;
+  transition: transform 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11);
+}
+
+/* line 42, ../sass/components/cat-card.scss */
+.cat-mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: all 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11);
+}
+
+/* line 49, ../sass/components/cat-card.scss */
+.cat-invi {
+  opacity: 0;
+}
+
+/* line 52, ../sass/components/cat-card.scss */
+.cat-left {
+  transform: translateX(-200%);
+}
+
+/* line 55, ../sass/components/cat-card.scss */
+.cat-right {
+  transform: translateX(200%);
+}
+
+/* line 58, ../sass/components/cat-card.scss */
+#cat-card1 {
+  background-image: url("../img/léCatz/catcard11.jpeg");
+  background-position: center 45%;
+}
+
+/* line 62, ../sass/components/cat-card.scss */
+#cat-card2 {
+  background-color: white;
+  background-image: url("../img/léCatz/fluffy1.png");
+  background-position: center 25%;
+}
+
+/* line 67, ../sass/components/cat-card.scss */
+#cat-card3 {
+  background-image: url("../img/léCatz/maine1.jpg");
+  background-position: center 20%;
+}
+
+/* line 71, ../sass/components/cat-card.scss */
+#cat-card4 {
+  background-image: url("../img/léCatz/griff1.jpeg");
+  background-position: center 40%;
+}
+
+/* line 75, ../sass/components/cat-card.scss */
+#cat-card5 {
+  background-color: white;
+  background-image: url("../img/léCatz/leo1.png");
+  background-position: center 20%;
+}
+
+/* line 80, ../sass/components/cat-card.scss */
+#cat-card6 {
+  background-image: url("../img/léCatz/little1.jpeg");
+  background-position: center 20%;
+}
+
+/* line 84, ../sass/components/cat-card.scss */
+#cat-card7 {
+  background-image: url("../img/léCatz/sky1.jpeg");
+  background-position: center 40%;
+}
+
+/* line 88, ../sass/components/cat-card.scss */
+#cat-card8 {
+  background-image: url("../img/léCatz/rouki1.jpeg");
+  background-position: center 60%;
+}
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url("https://fonts.googleapis.com/css?family=Lato");
-@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 /* line 9, ../../../../../.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_normalize.scss */
 html {
   font-family: sans-serif;
@@ -369,8 +492,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot?1501664801);
-  src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot?&1501664801#iefix) format("embedded-opentype"), url(../fonts/bootstrap/glyphicons-halflings-regular.woff2?1501664801) format("woff2"), url(../fonts/bootstrap/glyphicons-halflings-regular.woff?1501664801) format("woff"), url(../fonts/bootstrap/glyphicons-halflings-regular.ttf?1501664801) format("truetype"), url(../fonts/bootstrap/glyphicons-halflings-regular.svg?1501664801#glyphicons_halflingsregular) format("svg");
+  src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot?1501666208);
+  src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot?&1501666208#iefix) format("embedded-opentype"), url(../fonts/bootstrap/glyphicons-halflings-regular.woff2?1501666208) format("woff2"), url(../fonts/bootstrap/glyphicons-halflings-regular.woff?1501666208) format("woff"), url(../fonts/bootstrap/glyphicons-halflings-regular.ttf?1501666208) format("truetype"), url(../fonts/bootstrap/glyphicons-halflings-regular.svg?1501666208#glyphicons_halflingsregular) format("svg");
 }
 /* line 24, ../../../../../.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon {
