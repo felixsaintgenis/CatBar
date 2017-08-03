@@ -1,3 +1,9 @@
+// Import Custom
+@import "custom";
+
+// Import catcard
+@import "components/cat-card";
+
 // Import Bootstrap Compass integration
 @import "bootstrap-compass";
 
@@ -6,5 +12,8 @@
 
 // Import Bootstrap for Sass
 @import "bootstrap";
-// personalized variables
-@import "custom";
+
+// import index.scss
+@import "index";
+// import about.scss
+@import "about";
