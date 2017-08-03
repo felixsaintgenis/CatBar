@@ -1,6 +1,14 @@
 h1{
+ font-family: 'Indie Flower';
 text-align:center;
 color:#444444;
+font-size:35px;
+
+}
+p{
+text-align:center;
+color:#444444;
+font-size:15px;
 }
 
 #containerbutton{
@@ -29,6 +37,7 @@ width:100%;
 
 		}
 	}
+	
 }
 
 	.containerPlat{
@@ -39,16 +48,17 @@ width:100%;
 
 			.col-md-4{
 
-			text-align:center;	
+			text-align:center;
+			font-size:25px;	
 	
 				a{
 				text-decoration:none;
-				font-size:25px;
+				font-size:35px;
 				 }
 
 				.description{
 
-				font-size:10px;
+				font-size:20px;
 
 				}
 
@@ -61,17 +71,12 @@ width:100%;
 
 .containerImg{
 text-align:center;
-	
-	.row{
-		col-md-4{
 
-
-			img{
-
-			}
-		}
-	}
 }
+img{
+				width:300px;
+				height:auto;
+			}
 .active {
 	background-color: #E1BD77;
 	box-shadow:1px 1px 1px 1px #020232;

@@ -1,10 +1,19 @@
 /* line 1, ../sass/lacarte.scss */
 h1 {
+  font-family: 'Indie Flower';
   text-align: center;
   color: #444444;
+  font-size: 35px;
 }
 
-/* line 6, ../sass/lacarte.scss */
+/* line 8, ../sass/lacarte.scss */
+p {
+  text-align: center;
+  color: #444444;
+  font-size: 15px;
+}
+
+/* line 14, ../sass/lacarte.scss */
 #containerbutton {
   position: relative;
   vertical-align: middle;
@@ -12,42 +21,49 @@ h1 {
   height: 100px;
   width: 100%;
 }
-/* line 13, ../sass/lacarte.scss */
+/* line 21, ../sass/lacarte.scss */
 #containerbutton ul {
   text-align: center;
 }
-/* line 17, ../sass/lacarte.scss */
+/* line 25, ../sass/lacarte.scss */
 #containerbutton ul li {
   display: inline-block;
   list-style-type: none;
   margin-left: 20px;
 }
-/* line 23, ../sass/lacarte.scss */
+/* line 31, ../sass/lacarte.scss */
 #containerbutton ul li a {
   text-decoration: none;
   color: #444444;
 }
 
-/* line 40, ../sass/lacarte.scss */
+/* line 49, ../sass/lacarte.scss */
 .containerPlat .row .col-md-4 {
   text-align: center;
-}
-/* line 44, ../sass/lacarte.scss */
-.containerPlat .row .col-md-4 a {
-  text-decoration: none;
   font-size: 25px;
 }
-/* line 49, ../sass/lacarte.scss */
+/* line 54, ../sass/lacarte.scss */
+.containerPlat .row .col-md-4 a {
+  text-decoration: none;
+  font-size: 35px;
+}
+/* line 59, ../sass/lacarte.scss */
 .containerPlat .row .col-md-4 .description {
-  font-size: 10px;
+  font-size: 20px;
 }
 
-/* line 62, ../sass/lacarte.scss */
+/* line 72, ../sass/lacarte.scss */
 .containerImg {
   text-align: center;
 }
 
-/* line 75, ../sass/lacarte.scss */
+/* line 76, ../sass/lacarte.scss */
+img {
+  width: 300px;
+  height: auto;
+}
+
+/* line 80, ../sass/lacarte.scss */
 .active {
   background-color: #E1BD77;
   box-shadow: 1px 1px 1px 1px #020232;
