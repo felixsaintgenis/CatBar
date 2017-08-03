@@ -1,5 +1,15 @@
 #cat-body {
-  // background-color: red;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/livre-fond.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-attachment: fixed;
+}
+#cat-title {
+  color: white;
+  font-size: 300%;
+  text-shadow: 0 0 2px black;
+  margin-bottom: 20px;
 }
 .cat-card {
   width: 100%;
@@ -9,7 +19,6 @@
   transition: height 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11);
   overflow: hidden;
   position: relative;
-  margin-bottom: 25px;
   h2 {
     font-size: 250%;
     font-weight: bold;
@@ -47,36 +56,36 @@
   transform: translateX(200%);
 }
 #cat-card1 {
-  background-image: url('../img/catcard1.jpeg');
+  background-image: url('../img/léCatz/catcard11.jpeg');
   background-position: center 45%;
 }
 #cat-card2 {
   background-color: white;
-  background-image: url('../img/fluffy.png');
+  background-image: url('../img/léCatz/fluffy1.png');
   background-position: center 25%;
 }
 #cat-card3 {
-  background-image: url('../img/maine.jpg');
+  background-image: url('../img/léCatz/maine1.jpg');
   background-position: center 20%;
 }
 #cat-card4 {
-  background-image: url('../img/griff.jpeg');
+  background-image: url('../img/léCatz/griff1.jpeg');
   background-position: center 40%;
 }
 #cat-card5 {
   background-color: white;
-  background-image: url('../img/leo.png');
+  background-image: url('../img/léCatz/leo1.png');
   background-position: center 20%;
 }
 #cat-card6 {
-  background-image: url('../img/little.jpeg');
+  background-image: url('../img/léCatz/little1.jpeg');
   background-position: center 20%;
 }
 #cat-card7 {
-  background-image: url('../img/sky.jpeg');
+  background-image: url('../img/léCatz/sky1.jpeg');
   background-position: center 40%;
 }
 #cat-card8 {
-  background-image: url('../img/rouki.jpeg');
+  background-image: url('../img/léCatz/rouki1.jpeg');
   background-position: center 60%;
 }

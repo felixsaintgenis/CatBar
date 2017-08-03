@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$darkGrey".
-        on line 7 of /home/nicolas/dev/Taf Simplon/Semaine 12/CatBar/sass/components/cat-card.scss
+        on line 17 of /home/nicolas/dev/Taf Simplon/Semaine 12/CatBar/sass/components/cat-card.scss
 
-2:   // background-color: red;
-3: }
-4: .cat-card {
-5:   width: 100%;
-6:   height: 10em;
-7:   box-shadow: 0 0 3px $darkGrey;
-8:   background-size: cover;
-9:   transition: height 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11);
-10:   overflow: hidden;
-11:   position: relative;
-12:   margin-bottom: 25px;
+12:   margin-bottom: 20px;
+13: }
+14: .cat-card {
+15:   width: 100%;
+16:   height: 10em;
+17:   box-shadow: 0 0 3px $darkGrey;
+18:   background-size: cover;
+19:   transition: height 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11);
+20:   overflow: hidden;
+21:   position: relative;
+22:   h2 {
 
 Backtrace:
-/home/nicolas/dev/Taf Simplon/Semaine 12/CatBar/sass/components/cat-card.scss:7
+/home/nicolas/dev/Taf Simplon/Semaine 12/CatBar/sass/components/cat-card.scss:17
 /home/nicolas/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
 /home/nicolas/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
 /home/nicolas/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
@@ -72,4 +72,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$darkGrey\".\A         on line 7 of /home/nicolas/dev/Taf Simplon/Semaine 12/CatBar/sass/components/cat-card.scss\A \A 2:   // background-color: red;\A 3: }\A 4: .cat-card {\A 5:   width: 100%;\A 6:   height: 10em;\A 7:   box-shadow: 0 0 3px $darkGrey;\A 8:   background-size: cover;\A 9:   transition: height 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11);\A 10:   overflow: hidden;\A 11:   position: relative;\A 12:   margin-bottom: 25px;"; }
+  content: "Error: Undefined variable: \"$darkGrey\".\A         on line 17 of /home/nicolas/dev/Taf Simplon/Semaine 12/CatBar/sass/components/cat-card.scss\A \A 12:   margin-bottom: 20px;\A 13: }\A 14: .cat-card {\A 15:   width: 100%;\A 16:   height: 10em;\A 17:   box-shadow: 0 0 3px $darkGrey;\A 18:   background-size: cover;\A 19:   transition: height 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11);\A 20:   overflow: hidden;\A 21:   position: relative;\A 22:   h2 {"; }
