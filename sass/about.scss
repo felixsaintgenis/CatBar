@@ -63,7 +63,6 @@
 /* Team Members */
 .team-members {
     width: 100%;
-    height: 200px;
     cursor: pointer;
     overflow: hidden;
     position: relative;
@@ -77,8 +76,7 @@
 .team-members .team-avatar:after {
     top: 0;
     left: 0;
-    width: 80%;
-    height: 80%;
+    width: 100%;
     content: " ";
     position: absolute;
     background: rgba(129, 129, 129, 0.1);

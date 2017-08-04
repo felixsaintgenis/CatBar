@@ -1,14 +1,32 @@
 #body{
+<<<<<<< HEAD
 background-image: url(../img/Bar.jpg);
 
+=======
+background-color:white;
+>>>>>>> dad35c768e74821c06de584da5fe86cfd42ea985
 
+.navbar-black .navbar-toggle {
+    border-color: black;
+}
+.navbar-black .navbar-brand {
+    color: black;
+    font-size: 35px;
+}
+.navbar-black .navbar-nav > li > a {
+  color: black;
+
+}
+.navbar-black .navbar-toggle .icon-bar {
+    background-color: black;
+}
 	#headerHome{
 	padding:0;
 	margin:0;
 	}
 
 
-	
+
 
 	p{
 	text-align:center;
