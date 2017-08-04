@@ -1,67 +1,67 @@
 /* line 1, ../sass/lacarte.scss */
 #body {
-  background-color: #DEDEDE;
+  background-image: url(../img/Bar.jpg);
 }
-/* line 4, ../sass/lacarte.scss */
+/* line 5, ../sass/lacarte.scss */
 #body #headerHome {
   padding: 0;
   margin: 0;
 }
-/* line 12, ../sass/lacarte.scss */
+/* line 13, ../sass/lacarte.scss */
 #body p {
   text-align: center;
   color: #444444;
   font-size: 15px;
 }
-/* line 18, ../sass/lacarte.scss */
+/* line 19, ../sass/lacarte.scss */
 #body #containerbutton {
   position: relative;
   vertical-align: middle;
   height: 100px;
   width: 100%;
 }
-/* line 25, ../sass/lacarte.scss */
+/* line 26, ../sass/lacarte.scss */
 #body #containerbutton ul {
   text-align: center;
   margin-right: 4%;
 }
-/* line 30, ../sass/lacarte.scss */
+/* line 31, ../sass/lacarte.scss */
 #body #containerbutton ul li {
   display: inline-block;
   list-style-type: none;
   margin-bottom: 5px;
 }
-/* line 36, ../sass/lacarte.scss */
+/* line 37, ../sass/lacarte.scss */
 #body #containerbutton ul li a {
   font-size: 20px;
   text-decoration: none;
   color: #444444;
 }
-/* line 55, ../sass/lacarte.scss */
+/* line 56, ../sass/lacarte.scss */
 #body .containerPlat .row .col-md-4 {
   text-align: center;
   font-size: 25px;
 }
-/* line 60, ../sass/lacarte.scss */
+/* line 61, ../sass/lacarte.scss */
 #body .containerPlat .row .col-md-4 a {
   text-decoration: none;
   font-size: 35px;
 }
-/* line 65, ../sass/lacarte.scss */
+/* line 66, ../sass/lacarte.scss */
 #body .containerPlat .row .col-md-4 .description {
   font-size: 20px;
 }
-/* line 73, ../sass/lacarte.scss */
+/* line 74, ../sass/lacarte.scss */
 #body .containerPlat .row .col-md-4 .thumbnail {
   background-color: black;
 }
-/* line 75, ../sass/lacarte.scss */
+/* line 76, ../sass/lacarte.scss */
 #body .containerPlat .row .col-md-4 .thumbnail img {
   width: 300%;
   height: auto;
   background-color: white;
 }
-/* line 88, ../sass/lacarte.scss */
+/* line 89, ../sass/lacarte.scss */
 #body .active {
   background-color: #E1BD77;
   box-shadow: 1px 1px 1px 1px #020232;
