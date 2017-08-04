@@ -30,22 +30,22 @@ background-color:#DEDEDE;
 	#containerbutton{
 	position:relative;
 	vertical-align: middle;
-	    
+
 	height:100px;
 	width:100%;
 
-		ul{ 
+		ul{
 
 		text-align: center;
 		margin-right:4%;
 
-			li{	
+			li{
 
-			display: inline-block;	
+			display: inline-block;
 			list-style-type:none;
 			margin-left:20px;
 
-				a{ 
+				a{
 				font-size:20px;
 				text-decoration:none;
 				color:#444444;
@@ -55,20 +55,20 @@ background-color:#DEDEDE;
 
 			}
 		}
-		
+
 	}
 
 		.containerPlat{
-		
-		
+
+
 
 			.row {
 
 				.col-md-4{
 
 				text-align:center;
-				font-size:25px;	
-		
+				font-size:25px;
+
 					a{
 					text-decoration:none;
 					font-size:35px;
@@ -88,11 +88,11 @@ background-color:#DEDEDE;
 							width:300%;
 							height:auto;
 							background-color:white;
-							
+
 						}
 					}
 				}
-			}		
+			}
 	}
 
 
@@ -101,5 +101,5 @@ background-color:#DEDEDE;
 		background-color: #E1BD77;
 		box-shadow:1px 1px 1px 1px #020232;
 	}
-	
+
 }
