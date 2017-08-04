@@ -91,6 +91,14 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+#firstTwoCol a {
+    color: white;
+    text-decoration: none;
+}
+#secondTwoCol a {
+    color: white;
+    text-decoration: none;
+}
 //footer
 footer {
   background-color: #121212;
@@ -251,5 +259,9 @@ footer p {
   #headerHome {
 
     height: 850px;
+}
+.headerText {
+
+  top: 1000%;
 }
 }

@@ -107,13 +107,25 @@ body {
   padding-bottom: 50px;
 }
 
-/* line 95, ../sass/index.scss */
+/* line 94, ../sass/index.scss */
+#firstTwoCol a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 98, ../sass/index.scss */
+#secondTwoCol a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 103, ../sass/index.scss */
 footer {
   background-color: #121212;
   min-height: 100px;
 }
 
-/* line 100, ../sass/index.scss */
+/* line 108, ../sass/index.scss */
 footer p {
   color: white;
   padding-top: 20px;
@@ -125,7 +137,7 @@ footer p {
   padding-bottom: 10px;
 }
 
-/* line 111, ../sass/index.scss */
+/* line 119, ../sass/index.scss */
 .gal {
   -webkit-column-count: 3;
   /* Chrome, Safari, Opera */
@@ -134,13 +146,13 @@ footer p {
   column-count: 3;
 }
 
-/* line 120, ../sass/index.scss */
+/* line 128, ../sass/index.scss */
 .gal img {
   width: 100%;
   padding: 7px 0;
 }
 
-/* line 122, ../sass/index.scss */
+/* line 130, ../sass/index.scss */
 #socials {
   color: white;
   display: flex;
@@ -152,14 +164,14 @@ footer p {
   padding-top: 10px;
 }
 
-/* line 132, ../sass/index.scss */
+/* line 140, ../sass/index.scss */
 .fa {
   color: white;
   transition: 0.8s;
   transition-duration: 3.3s;
 }
 
-/* line 138, ../sass/index.scss */
+/* line 146, ../sass/index.scss */
 .fa-facebook:hover {
   color: #3b5998;
   transform: rotateY(360deg);
@@ -167,7 +179,7 @@ footer p {
   transition-duration: 3s;
 }
 
-/* line 145, ../sass/index.scss */
+/* line 153, ../sass/index.scss */
 .fa-twitter:hover {
   color: #1da1f2;
   transform: rotateY(360deg);
@@ -175,7 +187,7 @@ footer p {
   transition-duration: 3s;
 }
 
-/* line 153, ../sass/index.scss */
+/* line 161, ../sass/index.scss */
 .fa-snapchat-ghost:hover {
   color: #fffc00;
   transform: rotateY(360deg);
@@ -183,7 +195,7 @@ footer p {
   transition-duration: 3s;
 }
 
-/* line 161, ../sass/index.scss */
+/* line 169, ../sass/index.scss */
 .fa-youtube:hover {
   color: #cd201f;
   transform: rotateY(360deg);
@@ -191,7 +203,7 @@ footer p {
   transition-duration: 3s;
 }
 
-/* line 168, ../sass/index.scss */
+/* line 176, ../sass/index.scss */
 .fa-instagram:hover {
   color: #e1306c;
   transform: rotateY(360deg);
@@ -199,7 +211,7 @@ footer p {
   transition-duration: 3s;
 }
 
-/* line 176, ../sass/index.scss */
+/* line 184, ../sass/index.scss */
 .fa-pinterest-p:hover {
   color: #bd081c;
   transform: rotateY(360deg);
@@ -208,7 +220,7 @@ footer p {
 }
 
 @media (max-width: 500px) {
-  /* line 186, ../sass/index.scss */
+  /* line 194, ../sass/index.scss */
   .gal {
     -webkit-column-count: 1;
     /* Chrome, Safari, Opera */
@@ -217,75 +229,80 @@ footer p {
     column-count: 1;
   }
 
-  /* line 197, ../sass/index.scss */
+  /* line 205, ../sass/index.scss */
   #socials a {
     margin-right: 25px;
   }
 
-  /* line 203, ../sass/index.scss */
+  /* line 211, ../sass/index.scss */
   #socials {
     margin-left: 112px;
   }
 }
 @media (max-width: 1800px) {
-  /* line 214, ../sass/index.scss */
+  /* line 222, ../sass/index.scss */
   .navbar-header {
     float: none;
   }
 
-  /* line 217, ../sass/index.scss */
+  /* line 225, ../sass/index.scss */
   .navbar-toggle {
     display: block;
   }
 
-  /* line 220, ../sass/index.scss */
+  /* line 228, ../sass/index.scss */
   .navbar-collapse {
     border-top: 1px solid transparent;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   }
 
-  /* line 224, ../sass/index.scss */
+  /* line 232, ../sass/index.scss */
   .navbar-collapse.collapse {
     display: none !important;
   }
 
-  /* line 227, ../sass/index.scss */
+  /* line 235, ../sass/index.scss */
   .navbar-nav {
     float: none !important;
     margin: 7.5px -15px;
   }
 
-  /* line 231, ../sass/index.scss */
+  /* line 239, ../sass/index.scss */
   .navbar-nav > li {
     float: none;
   }
 
-  /* line 234, ../sass/index.scss */
+  /* line 242, ../sass/index.scss */
   .navbar-nav > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
-  /* line 238, ../sass/index.scss */
+  /* line 246, ../sass/index.scss */
   .navbar-text {
     float: none;
     margin: 15px 0;
   }
 
   /* since 3.1.0 */
-  /* line 243, ../sass/index.scss */
+  /* line 251, ../sass/index.scss */
   .navbar-collapse.collapse.in {
     display: block !important;
   }
 
-  /* line 246, ../sass/index.scss */
+  /* line 254, ../sass/index.scss */
   .collapsing {
     overflow: hidden !important;
   }
 }
 @media (min-width: 1000px) {
-  /* line 251, ../sass/index.scss */
+  /* line 259, ../sass/index.scss */
   #headerHome {
     height: 850px;
+  }
+
+  /* line 263, ../sass/index.scss */
+  .headerText {
+    top: 1000%;
   }
 }

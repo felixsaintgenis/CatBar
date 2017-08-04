@@ -2,19 +2,19 @@
 #body {
   background-color: #DEDEDE;
 }
-/* line 3, ../sass/lacarte.scss */
+/* line 4, ../sass/lacarte.scss */
 #body #headerHome {
   padding: 0;
   margin: 0;
 }
-/* line 7, ../sass/lacarte.scss */
+/* line 9, ../sass/lacarte.scss */
 #body #catbar {
   margin-left: 20px;
   text-align: left;
   margin-top: -55px;
   color: #444444;
 }
-/* line 13, ../sass/lacarte.scss */
+/* line 16, ../sass/lacarte.scss */
 #body .titre {
   margin-top: 60px;
   text-align: center;
@@ -22,62 +22,59 @@
   font-size: 35px;
   margin-left: -500px;
 }
-/* line 22, ../sass/lacarte.scss */
+/* line 24, ../sass/lacarte.scss */
 #body p {
   text-align: center;
   color: #444444;
   font-size: 15px;
 }
-/* line 28, ../sass/lacarte.scss */
+/* line 30, ../sass/lacarte.scss */
 #body #containerbutton {
   position: relative;
   vertical-align: middle;
   height: 100px;
   width: 100%;
 }
-/* line 35, ../sass/lacarte.scss */
+/* line 37, ../sass/lacarte.scss */
 #body #containerbutton ul {
   text-align: center;
   margin-right: 4%;
 }
-/* line 40, ../sass/lacarte.scss */
+/* line 42, ../sass/lacarte.scss */
 #body #containerbutton ul li {
   display: inline-block;
   list-style-type: none;
   margin-left: 20px;
 }
-/* line 46, ../sass/lacarte.scss */
+/* line 48, ../sass/lacarte.scss */
 #body #containerbutton ul li a {
   font-size: 20px;
   text-decoration: none;
   color: #444444;
 }
-/* line 65, ../sass/lacarte.scss */
+/* line 67, ../sass/lacarte.scss */
 #body .containerPlat .row .col-md-4 {
   text-align: center;
   font-size: 25px;
 }
-/* line 70, ../sass/lacarte.scss */
+/* line 72, ../sass/lacarte.scss */
 #body .containerPlat .row .col-md-4 a {
   text-decoration: none;
   font-size: 35px;
 }
-/* line 75, ../sass/lacarte.scss */
+/* line 77, ../sass/lacarte.scss */
 #body .containerPlat .row .col-md-4 .description {
   font-size: 20px;
 }
-/* line 88, ../sass/lacarte.scss */
-#body .containerImg {
-  text-align: center;
+/* line 85, ../sass/lacarte.scss */
+#body .containerPlat .row .col-md-4 .thumbnail {
+  background-color: black;
 }
-/* line 90, ../sass/lacarte.scss */
-#body .containerImg .thumbnail {
-  background-color: #E1BD77;
-}
-/* line 92, ../sass/lacarte.scss */
-#body .containerImg .thumbnail img {
-  width: 300;
-  height: 200px;
+/* line 87, ../sass/lacarte.scss */
+#body .containerPlat .row .col-md-4 .thumbnail img {
+  width: 300%;
+  height: auto;
+  background-color: white;
 }
 /* line 100, ../sass/lacarte.scss */
 #body .active {
