@@ -1,10 +1,7 @@
 #body{
-<<<<<<< HEAD
-background-image: url(../img/Bar.jpg);
 
-=======
 background-color:white;
->>>>>>> dad35c768e74821c06de584da5fe86cfd42ea985
+
 
 .navbar-black .navbar-toggle {
     border-color: black;
@@ -52,13 +49,18 @@ background-color:white;
 			list-style-type:none;
 			margin-bottom:5px;
 
-				a{
-				font-size:20px;
+				button{
+				font-size:17px;
 				text-decoration:none;
-				color:#444444;
+				background-color:#f9de7c;
+				padding:10px;
 
+				&:hover{
+					background-color:#e1bd77;
+				}
 
 				}
+
 
 			}
 		}

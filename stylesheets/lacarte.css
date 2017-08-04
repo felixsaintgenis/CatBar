@@ -1,134 +1,89 @@
 /* line 1, ../sass/lacarte.scss */
 #body {
-<<<<<<< HEAD
-  background-image: url(../img/Bar.jpg);
-}
-/* line 5, ../sass/lacarte.scss */
-=======
   background-color: white;
 }
-/* line 4, ../sass/lacarte.scss */
+/* line 6, ../sass/lacarte.scss */
 #body .navbar-black .navbar-toggle {
   border-color: black;
 }
-/* line 7, ../sass/lacarte.scss */
+/* line 9, ../sass/lacarte.scss */
 #body .navbar-black .navbar-brand {
   color: black;
   font-size: 35px;
 }
-/* line 11, ../sass/lacarte.scss */
+/* line 13, ../sass/lacarte.scss */
 #body .navbar-black .navbar-nav > li > a {
   color: black;
 }
-/* line 15, ../sass/lacarte.scss */
+/* line 17, ../sass/lacarte.scss */
 #body .navbar-black .navbar-toggle .icon-bar {
   background-color: black;
 }
-/* line 18, ../sass/lacarte.scss */
->>>>>>> dad35c768e74821c06de584da5fe86cfd42ea985
+/* line 20, ../sass/lacarte.scss */
 #body #headerHome {
   padding: 0;
   margin: 0;
 }
-<<<<<<< HEAD
-/* line 13, ../sass/lacarte.scss */
-=======
-/* line 26, ../sass/lacarte.scss */
->>>>>>> dad35c768e74821c06de584da5fe86cfd42ea985
+/* line 28, ../sass/lacarte.scss */
 #body p {
   text-align: center;
   color: #444444;
   font-size: 15px;
 }
-<<<<<<< HEAD
-/* line 19, ../sass/lacarte.scss */
-=======
-/* line 32, ../sass/lacarte.scss */
->>>>>>> dad35c768e74821c06de584da5fe86cfd42ea985
+/* line 34, ../sass/lacarte.scss */
 #body #containerbutton {
   position: relative;
   vertical-align: middle;
   height: 100px;
   width: 100%;
 }
-<<<<<<< HEAD
-/* line 26, ../sass/lacarte.scss */
-=======
-/* line 39, ../sass/lacarte.scss */
->>>>>>> dad35c768e74821c06de584da5fe86cfd42ea985
+/* line 41, ../sass/lacarte.scss */
 #body #containerbutton ul {
   text-align: center;
   margin-right: 4%;
 }
-<<<<<<< HEAD
-/* line 31, ../sass/lacarte.scss */
-=======
-/* line 44, ../sass/lacarte.scss */
->>>>>>> dad35c768e74821c06de584da5fe86cfd42ea985
+/* line 46, ../sass/lacarte.scss */
 #body #containerbutton ul li {
   display: inline-block;
   list-style-type: none;
   margin-bottom: 5px;
 }
-<<<<<<< HEAD
-/* line 37, ../sass/lacarte.scss */
-=======
-/* line 50, ../sass/lacarte.scss */
->>>>>>> dad35c768e74821c06de584da5fe86cfd42ea985
-#body #containerbutton ul li a {
-  font-size: 20px;
+/* line 52, ../sass/lacarte.scss */
+#body #containerbutton ul li button {
+  font-size: 17px;
   text-decoration: none;
-  color: #444444;
+  background-color: #f9de7c;
+  padding: 10px;
 }
-<<<<<<< HEAD
-/* line 56, ../sass/lacarte.scss */
-=======
-/* line 69, ../sass/lacarte.scss */
->>>>>>> dad35c768e74821c06de584da5fe86cfd42ea985
+/* line 58, ../sass/lacarte.scss */
+#body #containerbutton ul li button:hover {
+  background-color: #e1bd77;
+}
+/* line 76, ../sass/lacarte.scss */
 #body .containerPlat .row .col-md-4 {
   text-align: center;
   font-size: 25px;
 }
-<<<<<<< HEAD
-/* line 61, ../sass/lacarte.scss */
-=======
-/* line 74, ../sass/lacarte.scss */
->>>>>>> dad35c768e74821c06de584da5fe86cfd42ea985
+/* line 81, ../sass/lacarte.scss */
 #body .containerPlat .row .col-md-4 a {
   text-decoration: none;
   font-size: 35px;
 }
-<<<<<<< HEAD
-/* line 66, ../sass/lacarte.scss */
+/* line 86, ../sass/lacarte.scss */
 #body .containerPlat .row .col-md-4 .description {
   font-size: 20px;
 }
-/* line 74, ../sass/lacarte.scss */
+/* line 94, ../sass/lacarte.scss */
 #body .containerPlat .row .col-md-4 .thumbnail {
   background-color: black;
 }
-/* line 76, ../sass/lacarte.scss */
-=======
-/* line 79, ../sass/lacarte.scss */
-#body .containerPlat .row .col-md-4 .description {
-  font-size: 20px;
-}
-/* line 87, ../sass/lacarte.scss */
-#body .containerPlat .row .col-md-4 .thumbnail {
-  background-color: black;
-}
-/* line 89, ../sass/lacarte.scss */
->>>>>>> dad35c768e74821c06de584da5fe86cfd42ea985
+/* line 96, ../sass/lacarte.scss */
 #body .containerPlat .row .col-md-4 .thumbnail img {
   width: 300%;
   height: auto;
   background-color: white;
 }
-<<<<<<< HEAD
-/* line 89, ../sass/lacarte.scss */
-=======
-/* line 102, ../sass/lacarte.scss */
->>>>>>> dad35c768e74821c06de584da5fe86cfd42ea985
+/* line 109, ../sass/lacarte.scss */
 #body .active {
   background-color: #E1BD77;
   box-shadow: 1px 1px 1px 1px #020232;
