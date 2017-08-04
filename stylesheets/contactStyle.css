@@ -12,22 +12,26 @@
   text-rendering: optimizeLegibility;
 }
 
-body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+body #contact {
+  font-family: Indie Flower, Helvetica, Arial, sans-serif;
   font-weight: 100;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 30px;
   color: #777;
-  background: #DEDEDE;
+  background-image: url("../img/contact.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
 }
-
-.container {
+.container .act {
   max-width: 400px;
   width: 100%;
   margin: 0 auto;
   position: relative;
 }
-
+.map {
+  margin-left: -80px;
+}
 #contact input[type="text"],
 #contact input[type="email"],
 #contact input[type="tel"],
