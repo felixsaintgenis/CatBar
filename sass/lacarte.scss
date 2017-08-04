@@ -6,20 +6,8 @@ background-color:#DEDEDE;
 	margin:0;
 	}
 
-	#catbar{
-	margin-left: 20px;
-	text-align:left;
-	margin-top:-55px;
-	color:#444444;
-	}
 
-	.titre{
-	margin-top:60px;
-	text-align:center;
-	color:#444444;
-	font-size:35px;
-	margin-left:-500px;
-	}
+	
 
 	p{
 	text-align:center;
@@ -43,7 +31,7 @@ background-color:#DEDEDE;
 
 			display: inline-block;
 			list-style-type:none;
-			margin-left:20px;
+			margin-bottom:5px;
 
 				a{
 				font-size:20px;
@@ -103,3 +91,5 @@ background-color:#DEDEDE;
 	}
 
 }
+
+@media(max-width:767px){}
