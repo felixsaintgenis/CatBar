@@ -1,22 +1,24 @@
-body{
+#body{
 background-color:#DEDEDE;
+
 	#headerHome{
 	padding:0;
 	margin:0;
 	}
+
 	#catbar{
 	margin-left: 20px;
 	text-align:left;
 	margin-top:-55px;
 	color:#444444;
 	}
+
 	.titre{
 	margin-top:60px;
 	text-align:center;
 	color:#444444;
 	font-size:35px;
 	margin-left:-500px;
-
 	}
 
 	p{
@@ -80,23 +82,21 @@ background-color:#DEDEDE;
 
 					.prix{
 					}
+					.thumbnail{background-color:black;
+
+						img{
+							width:300%;
+							height:auto;
+							background-color:white;
+							
+						}
+					}
 				}
 			}		
 	}
 
 
-	.containerImg{
-	text-align:center;	
-		.thumbnail{
-		background-color:#E1BD77;
-			img{			
-					width:300;
-					height:200px;
-				}
-			}
 
-	}
-	
 	.active {
 		background-color: #E1BD77;
 		box-shadow:1px 1px 1px 1px #020232;
