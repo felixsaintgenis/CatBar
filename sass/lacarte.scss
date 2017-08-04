@@ -1,5 +1,7 @@
 #body{
+
 background-color:white;
+
 
 .navbar-black .navbar-toggle {
     border-color: black;
@@ -47,13 +49,18 @@ background-color:white;
 			list-style-type:none;
 			margin-bottom:5px;
 
-				a{
-				font-size:20px;
+				button{
+				font-size:17px;
 				text-decoration:none;
-				color:#444444;
+				background-color:#f9de7c;
+				padding:10px;
 
+				&:hover{
+					background-color:#e1bd77;
+				}
 
 				}
+
 
 			}
 		}
@@ -106,4 +113,4 @@ background-color:white;
 
 }
 
-@media(max-width:767px){}
+
