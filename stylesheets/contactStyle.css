@@ -20,8 +20,7 @@ body #contact {
   color: #777;
   background-image: url("../img/contact.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: right;
+  background-size: cover;
 }
 .container .act {
   max-width: 400px;
@@ -42,9 +41,8 @@ body #contact {
 }
 
 #contact {
-  background: #F9F9F9;
+  background: #A54657;
   padding: 25px;
-  margin: 150px 0;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
@@ -54,7 +52,9 @@ body #contact {
   font-weight: 300;
   margin-bottom: 10px;
 }
-
+#contact h1 {
+  color: white;
+}
 #contact h4 {
   margin: 5px 0 15px;
   display: block;
@@ -145,4 +145,13 @@ fieldset {
 
 :-ms-input-placeholder {
   color: #888;
+}
+
+@media (max-width: 500px) {
+
+
+#contact {
+  background: #F9F9F9;
+  padding: 25;
+  box-shadow: none;
 }
