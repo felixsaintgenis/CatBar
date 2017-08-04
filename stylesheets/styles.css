@@ -493,8 +493,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot?1501769583);
-  src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot?&1501769583#iefix) format("embedded-opentype"), url(../fonts/bootstrap/glyphicons-halflings-regular.woff2?1501769583) format("woff2"), url(../fonts/bootstrap/glyphicons-halflings-regular.woff?1501769583) format("woff"), url(../fonts/bootstrap/glyphicons-halflings-regular.ttf?1501769583) format("truetype"), url(../fonts/bootstrap/glyphicons-halflings-regular.svg?1501769583#glyphicons_halflingsregular) format("svg");
+  src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot?1501666208);
+  src: url(../fonts/bootstrap/glyphicons-halflings-regular.eot?&1501666208#iefix) format("embedded-opentype"), url(../fonts/bootstrap/glyphicons-halflings-regular.woff2?1501666208) format("woff2"), url(../fonts/bootstrap/glyphicons-halflings-regular.woff?1501666208) format("woff"), url(../fonts/bootstrap/glyphicons-halflings-regular.ttf?1501666208) format("truetype"), url(../fonts/bootstrap/glyphicons-halflings-regular.svg?1501666208#glyphicons_halflingsregular) format("svg");
 }
 /* line 24, ../../../../../.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon {
@@ -9021,25 +9021,37 @@ body {
   padding-bottom: 50px;
 }
 
-/* line 95, ../sass/index.scss */
-footer {
-  background-color: white;
-  height: 100px;
+/* line 94, ../sass/index.scss */
+#firstTwoCol a {
+  color: white;
+  text-decoration: none;
 }
 
-/* line 100, ../sass/index.scss */
+/* line 98, ../sass/index.scss */
+#secondTwoCol a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 103, ../sass/index.scss */
+footer {
+  background-color: #121212;
+  min-height: 100px;
+}
+
+/* line 108, ../sass/index.scss */
 footer p {
-  color: #black;
+  color: white;
   padding-top: 20px;
   font-size: 18px;
   font-weight: 300;
   text-align: center;
-  padding-bottom: 50px;
-  padding-top: 50px;
   font-family: 'Lato';
+  margin: 0;
+  padding-bottom: 10px;
 }
 
-/* line 111, ../sass/index.scss */
+/* line 119, ../sass/index.scss */
 .gal {
   -webkit-column-count: 3;
   /* Chrome, Safari, Opera */
@@ -9048,31 +9060,32 @@ footer p {
   column-count: 3;
 }
 
-/* line 120, ../sass/index.scss */
+/* line 128, ../sass/index.scss */
 .gal img {
   width: 100%;
   padding: 7px 0;
 }
 
-/* line 122, ../sass/index.scss */
+/* line 130, ../sass/index.scss */
 #socials {
-  color: black;
+  color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: auto;
   width: 50%;
-  height: 10em;
+  height: 70px;
+  padding-top: 10px;
 }
 
-/* line 131, ../sass/index.scss */
+/* line 140, ../sass/index.scss */
 .fa {
-  color: black;
+  color: white;
   transition: 0.8s;
   transition-duration: 3.3s;
 }
 
-/* line 137, ../sass/index.scss */
+/* line 146, ../sass/index.scss */
 .fa-facebook:hover {
   color: #3b5998;
   transform: rotateY(360deg);
@@ -9080,7 +9093,7 @@ footer p {
   transition-duration: 3s;
 }
 
-/* line 144, ../sass/index.scss */
+/* line 153, ../sass/index.scss */
 .fa-twitter:hover {
   color: #1da1f2;
   transform: rotateY(360deg);
@@ -9088,7 +9101,7 @@ footer p {
   transition-duration: 3s;
 }
 
-/* line 152, ../sass/index.scss */
+/* line 161, ../sass/index.scss */
 .fa-snapchat-ghost:hover {
   color: #fffc00;
   transform: rotateY(360deg);
@@ -9096,7 +9109,7 @@ footer p {
   transition-duration: 3s;
 }
 
-/* line 160, ../sass/index.scss */
+/* line 169, ../sass/index.scss */
 .fa-youtube:hover {
   color: #cd201f;
   transform: rotateY(360deg);
@@ -9104,7 +9117,7 @@ footer p {
   transition-duration: 3s;
 }
 
-/* line 167, ../sass/index.scss */
+/* line 176, ../sass/index.scss */
 .fa-instagram:hover {
   color: #e1306c;
   transform: rotateY(360deg);
@@ -9112,7 +9125,7 @@ footer p {
   transition-duration: 3s;
 }
 
-/* line 175, ../sass/index.scss */
+/* line 184, ../sass/index.scss */
 .fa-pinterest-p:hover {
   color: #bd081c;
   transform: rotateY(360deg);
@@ -9121,7 +9134,7 @@ footer p {
 }
 
 @media (max-width: 500px) {
-  /* line 185, ../sass/index.scss */
+  /* line 194, ../sass/index.scss */
   .gal {
     -webkit-column-count: 1;
     /* Chrome, Safari, Opera */
@@ -9130,78 +9143,167 @@ footer p {
     column-count: 1;
   }
 
-  /* line 196, ../sass/index.scss */
+  /* line 205, ../sass/index.scss */
   #socials a {
     margin-right: 25px;
   }
 
-  /* line 202, ../sass/index.scss */
+  /* line 211, ../sass/index.scss */
   #socials {
     margin-left: 112px;
   }
 }
 @media (max-width: 1800px) {
-  /* line 213, ../sass/index.scss */
+  /* line 222, ../sass/index.scss */
   .navbar-header {
     float: none;
   }
 
-  /* line 216, ../sass/index.scss */
+  /* line 225, ../sass/index.scss */
   .navbar-toggle {
     display: block;
   }
 
-  /* line 219, ../sass/index.scss */
+  /* line 228, ../sass/index.scss */
   .navbar-collapse {
     border-top: 1px solid transparent;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   }
 
-  /* line 223, ../sass/index.scss */
+  /* line 232, ../sass/index.scss */
   .navbar-collapse.collapse {
     display: none !important;
   }
 
-  /* line 226, ../sass/index.scss */
+  /* line 235, ../sass/index.scss */
   .navbar-nav {
     float: none !important;
     margin: 7.5px -15px;
   }
 
-  /* line 230, ../sass/index.scss */
+  /* line 239, ../sass/index.scss */
   .navbar-nav > li {
     float: none;
   }
 
-  /* line 233, ../sass/index.scss */
+  /* line 242, ../sass/index.scss */
   .navbar-nav > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
-  /* line 237, ../sass/index.scss */
+  /* line 246, ../sass/index.scss */
   .navbar-text {
     float: none;
     margin: 15px 0;
   }
 
   /* since 3.1.0 */
-  /* line 242, ../sass/index.scss */
+  /* line 251, ../sass/index.scss */
   .navbar-collapse.collapse.in {
     display: block !important;
   }
 
-  /* line 245, ../sass/index.scss */
+  /* line 254, ../sass/index.scss */
   .collapsing {
     overflow: hidden !important;
   }
 }
 @media (min-width: 1000px) {
-  /* line 250, ../sass/index.scss */
+  /* line 259, ../sass/index.scss */
   #headerHome {
     height: 850px;
   }
+
+  /* line 263, ../sass/index.scss */
+  .headerText {
+    top: 1000%;
+  }
 }
+/* line 1, ../sass/lacarte.scss */
+#body {
+  background-color: #DEDEDE;
+}
+/* line 4, ../sass/lacarte.scss */
+#body #headerHome {
+  padding: 0;
+  margin: 0;
+}
+/* line 9, ../sass/lacarte.scss */
+#body #catbar {
+  margin-left: 20px;
+  text-align: left;
+  margin-top: -55px;
+  color: #444444;
+}
+/* line 16, ../sass/lacarte.scss */
+#body .titre {
+  margin-top: 60px;
+  text-align: center;
+  color: #444444;
+  font-size: 35px;
+  margin-left: -500px;
+}
+/* line 24, ../sass/lacarte.scss */
+#body p {
+  text-align: center;
+  color: #444444;
+  font-size: 15px;
+}
+/* line 30, ../sass/lacarte.scss */
+#body #containerbutton {
+  position: relative;
+  vertical-align: middle;
+  height: 100px;
+  width: 100%;
+}
+/* line 37, ../sass/lacarte.scss */
+#body #containerbutton ul {
+  text-align: center;
+  margin-right: 4%;
+}
+/* line 42, ../sass/lacarte.scss */
+#body #containerbutton ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 20px;
+}
+/* line 48, ../sass/lacarte.scss */
+#body #containerbutton ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #444444;
+}
+/* line 67, ../sass/lacarte.scss */
+#body .containerPlat .row .col-md-4 {
+  text-align: center;
+  font-size: 25px;
+}
+/* line 72, ../sass/lacarte.scss */
+#body .containerPlat .row .col-md-4 a {
+  text-decoration: none;
+  font-size: 35px;
+}
+/* line 77, ../sass/lacarte.scss */
+#body .containerPlat .row .col-md-4 .description {
+  font-size: 20px;
+}
+/* line 85, ../sass/lacarte.scss */
+#body .containerPlat .row .col-md-4 .thumbnail {
+  background-color: black;
+}
+/* line 87, ../sass/lacarte.scss */
+#body .containerPlat .row .col-md-4 .thumbnail img {
+  width: 300%;
+  height: auto;
+  background-color: white;
+}
+/* line 100, ../sass/lacarte.scss */
+#body .active {
+  background-color: #E1BD77;
+  box-shadow: 1px 1px 1px 1px #020232;
+}
+
 /* line 1, ../sass/about.scss */
 #about {
   background-image: url(../img/kittenHeader.jpg);
@@ -9235,22 +9337,17 @@ footer p {
     background-size: cover;
     background-attachment: fixed;
   }
-
-  /* line 26, ../sass/about.scss */
-  #aboutFooter {
-    height: 140px;
-  }
 }
 @media (min-width: 900px) {
-  /* line 31, ../sass/about.scss */
+  /* line 27, ../sass/about.scss */
   .faq {
     width: 50%;
   }
-  /* line 35, ../sass/about.scss */
+  /* line 31, ../sass/about.scss */
   .faq h3 {
     font-size: 40px;
   }
-  /* line 38, ../sass/about.scss */
+  /* line 34, ../sass/about.scss */
   .faq p {
     font-size: 25px;
   }
